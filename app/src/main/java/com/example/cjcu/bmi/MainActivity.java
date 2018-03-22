@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this,String.valueOf(bmi),Toast.LENGTH_LONG).show();
 
+
+
         new AlertDialog.Builder(this)
                 .setMessage("BMI"+bmi)
                 .setTitle("BMI值")
